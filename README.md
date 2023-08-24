@@ -16,29 +16,34 @@ It demonstrates how to make HTTP requests, convert IP addresses to decimal forma
 
 ## Prerequisites
 
-- .NET SDK [Download and Install .NET](https://dotnet.microsoft.com/download)
+- The [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - An active internet connection for making HTTP requests.
 
 ## Installation
 
 1. Clone the repository:
- `git clone https://github.com/your-username/geolocation-finder.git`
-  
+```git
+$ git clone https://github.com/AndreasGkizis/GeoLocation.git
+```  
 2. Navigate to the project directory:
-
+```bash 
 cd GeolocationFinder
+```
 
 3. Build the project:
 
-` $ dotnet build`
+```bash
+$ dotnet build
+```
 
 ## Usage
 
 1. Open the `Program.cs` file and modify the `Main` method as needed.
 
 2. Run the application:
-
-` $ dotnet run`
+```bash
+$ dotnet run
+```
 
 3. The application will demonstrate making HTTP requests using different methods and printing the elapsed times.
 
