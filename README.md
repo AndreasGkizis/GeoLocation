@@ -45,7 +45,7 @@ $ dotnet build
 $ dotnet run
 ```
 
-3. The application will demonstrate making HTTP requests using different methods and printing the elapsed times.
+3. The application will demonstrate making HTTP requests using different methods and printing the response status code and content.
 
 ### Note
 
